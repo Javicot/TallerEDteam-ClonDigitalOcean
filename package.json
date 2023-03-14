@@ -1,0 +1,26 @@
+{
+  "name": "talleredteam-clondigitalocean",
+  "version": "1.0.0",
+  "description": "Clon de la pagina DigitalOcean del 2022 usando HTML, CSS (TailwindCSS) y JS. En este proyecto crearemos solo la pagina de inicio de Digital Ocean.",
+  "main": "index.js",
+  "scripts": {
+    "test": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Javicot/TallerEDteam-ClonDigitalOcean.git"
+  },
+  "keywords": [],
+  "author": "Javier Tintaya <jhosimart42@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Javicot/TallerEDteam-ClonDigitalOcean/issues"
+  },
+  "homepage": "https://github.com/Javicot/TallerEDteam-ClonDigitalOcean#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7",
+    "vite": "^4.1.4"
+  }
+}
