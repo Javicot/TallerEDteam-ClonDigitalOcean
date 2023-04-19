@@ -80,26 +80,36 @@
   </div>
 
   <div class="mt-16">
-    <div class="container mx-auto flex">
+    <div class="container mx-auto flex items-center">
       <div class="w-1/2">
-        <h1 class="text-4xl font-bold">The cloud is complex. <br> We make it simple</h1>
-        <p>The cloud computing services you need, with the predictable pricing, developer-friendly features, and
+        <h1 class="text-4xl font-bold tracking-tight pb-10">The cloud is complex. <br> We make it simple</h1>
+        <p class="mt-5 text-xl font-medium text-gray-700">The cloud computing services you need, with the predictable
+          pricing, developer-friendly
+          features, and
           scalability you'll love</p>
       </div>
       <div class="w-1/2">
-        <p>Welcome to DigitalOcean, Sign up to get started!</p>
+        <p class="font-semibold">Welcome to DigitalOcean, Sign up to get started!</p>
         <form action="">
-          <div>
-            <input class="border-x-2 block" type="text" placeholder="Nombre">
-            <input class="border-x-2" type="text" placeholder="Correo">
-            <input class="border-x-2 block" type="password">
-            <div>
-              <button>Deploy en Seconds</button>
-              <button>Google</button>
-              <button>Github</button>
+          <div class="flex flex-col gap-y-4 w-4/5">
+            <input class="border border-black py-3 px-4 rounded-lg" type="text" placeholder="Nombre">
+            <input class="border border-black py-3 px-4 rounded-lg" type="text" placeholder="Correo">
+            <input class="border border-black py-3 px-4 rounded-lg" type="password">
+            <div class="flex gap-x-2 justify-between">
+              <button
+                class="w-3/4 py-3 px-5 rounded-lg bg-do-blue-light text-white font-semibold hover:bg-do-blue-medium">Deploy
+                in
+                Seconds</button>
+              <button class="p-3 rounded-lg bg-gray-200"><img
+                  src="https://raw.githubusercontent.com/edteamlat/curso-tailwind-css-desde-cero/bf06089d73d00bf72b891060afff011267c08edd/images/google-logo.svg"
+                  alt=""></button>
+              <button class="p-3 rounded-lg bg-gray-200"><img
+                  src="https://raw.githubusercontent.com/edteamlat/curso-tailwind-css-desde-cero/bf06089d73d00bf72b891060afff011267c08edd/images/github-logo.svg"
+                  alt=""></button>
             </div>
-            <div>
-              <p>By signin up you are agree with our terms and services</p>
+            <div class="text-gray-500">
+              <p>By signin up you are agree with our <a href="#" class="underline font-light">terms and services</a>.
+              </p>
             </div>
           </div>
         </form>
