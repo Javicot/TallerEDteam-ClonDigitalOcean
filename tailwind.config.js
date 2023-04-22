@@ -8,6 +8,7 @@ module.exports = {
         "do-blue-mediumDark": "rgb(29, 39, 76)",
         "do-blue-light": "rgb(20, 86, 255)",
         "do-blue-medium": "rgb(0, 105, 255)",
+        "do-blue-lighter": "#f9fafe",
       },
       fontFamily: {
         sans: "'Work Sans', sans-serif",
