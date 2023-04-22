@@ -13,6 +13,10 @@ module.exports = {
         sans: "'Work Sans', sans-serif",
         cascadia: "'CascadiaCode'",
       },
+      boxShadow: {
+        input: "0 5px 1px 0 rgb(0, 0, 0, 0.1)",
+        "input-focus": "0 2px 1px 0 rgb(0, 0, 0, 0.1)",
+      },
     },
     container: {
       padding: {
