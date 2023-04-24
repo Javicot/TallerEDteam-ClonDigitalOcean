@@ -7,5 +7,10 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+.btn-blue {
+  @apply py-2 px-5 rounded-lg bg-do-blue-light text-white font-semibold hover:bg-do-blue-medium;
+}
+
+.moving-cards {
+  @apply rounded-xl bg-gray-200;
 }
