@@ -12,5 +12,5 @@
 }
 
 .moving-cards {
-  @apply rounded-xl bg-gray-200;
+  @apply rounded-xl bg-gray-200  p-5;
 }
