@@ -14,3 +14,7 @@
 .moving-cards {
   @apply rounded-xl bg-gray-200  p-5;
 }
+
+.fuente-h {
+  @apply text-2xl font-bold;
+}
