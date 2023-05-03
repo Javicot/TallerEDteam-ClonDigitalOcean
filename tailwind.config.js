@@ -2,6 +2,12 @@
 module.exports = {
   content: ["./*.html", "./JS/apli.js"],
   theme: {
+    container: {
+      padding: {
+        DEFAULT: "1.4rem",
+        "2xl": "7rem",
+      },
+    },
     extend: {
       colors: {
         "do-blue-dark": "rgb(8, 12, 45)",
@@ -20,12 +26,6 @@ module.exports = {
       },
       width: {
         88: "22rem",
-      },
-    },
-    container: {
-      padding: {
-        DEFAULT: "1.4rem",
-        "2xl": "7rem",
       },
     },
   },
